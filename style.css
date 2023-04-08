@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Merriweather:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+body{width: 100vw;
+height:100vh;
+display:grid;
+place-items: center;
+background: linear-gradient( 13deg,#09141e,#5e98d1
+);
+
+}
+
+.calculator{
+    border:2px solid #516a83;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px  rgba(113,115,116, 0.5);}
+
+    input{
+        border-radius: 10px;
+        width: 320px;
+        border:none;
+        padding:24px;
+        margin:10px;
+        background: #ffffff;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        font-size: 40px;
+        text-align: right;
+        cursor: pointer;
+    }
+
+    input::placeholder{
+        color:black;
+    }
+    input:focus{
+     outline: none;   
+    }
+    button{
+        border:none;
+        width:60px;
+        height:60px;
+        margin:10px;
+        background: transparent;
+        border-radius: 50%;
+        color: #ffffff;
+        font-size: 20px;
+        box-shadow: -8px -8px 15px rgba(18, 19, 24, 0.802);
+ cursor: pointer;
+    }
+
+    .equalbtn{
+        background-color:orange;
+    }
+
+    .operator{
+       color:rgb(20, 255, 20);}
